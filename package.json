@@ -1,0 +1,22 @@
+{
+  "name": "jest-data-generator",
+  "version": "1.0.0",
+  "description": "Example of using Jest with the Gerador-BR data generator",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "gerador-br": "^1.2.3",
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "jest",
+    "gerador-br",
+    "data generator",
+    "test automation",
+    "test",
+    "data"
+  ],
+  "author": "Marcelo Lourenço <qabi.dev@gmail.com>",
+  "license": "MIT"
+}
