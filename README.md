@@ -1,19 +1,20 @@
 # Jest Data Generator with Gerador-BR
 
-Example of using [Jest](https://jestjs.io/) with the [Gerador-BR](https://box4.dev/gerador-br/) data generator to test Brazilian mock data generation.
+Example of using [Jest](https://jestjs.io/) with the [Gerador-BR](https://box4.dev/gerador-br/?utm_source=github&utm_medium=jest_data_generator) data generator to test Brazilian mock data generation.
 
 ## Prerequisites
 
 * [Node.js](https://nodejs.org/) (includes npm)
-* [Jest](https://jestjs.io/): `npm i -D jest`
+* [Jest](https://jestjs.io/): `npm install --save-dev jest`
 
 ## Installation
 
 1. Clone this repository
 2. Install dependencies:
-   ```bash
-   npm install
-   ```
+   
+```bash
+npm install
+```
 
 ## Running Tests
 
@@ -41,13 +42,14 @@ npm run test:coverage
 
 The tests are organized in the `tests/` directory with individual test files for each data type:
 
-- `tests/apelido.test.js` - Nickname generation
 - `tests/cpf.test.js` - CPF generation
 - `tests/cnpj.test.js` - CNPJ generation
 - `tests/endereco.test.js` - Address generation
-- `tests/nome.test.js` - Name generation
+- `tests/cartao-credito.test.js` - Credit card generation
+- `tests/banco.test.js` - bank generation
 - And many more...
 
 ## Documentation
 
-[gerador-br](https://box4.dev/gerador-br/)
+* [Jest Documentation](https://jestjs.io/docs/getting-started)
+* [Gerador-BR Documentation](https://box4.dev/gerador-br/documentacao/?utm_source=github&utm_medium=jest_data_generator)
