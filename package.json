@@ -2,12 +2,15 @@
   "name": "jest-data-generator",
   "version": "1.0.0",
   "description": "Example of using Jest with the Gerador-BR data generator",
-  "scripts": {
-    "test": "jest"
-  },
+  "main": "index.js",
   "devDependencies": {
-    "gerador-br": "^1.2.3",
+    "gerador-br": "latest",
     "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "jest",
