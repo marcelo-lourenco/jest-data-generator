@@ -1,4 +1,4 @@
-const { apelido } = require('gerador-br');
+const { apelido } = require('@box4dev/gerador-br');
 
 describe('apelido', () => {
   test('deve gerar um apelido válido', () => {

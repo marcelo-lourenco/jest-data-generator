@@ -1,4 +1,4 @@
-const { cns, cnsDV } = require('gerador-br');
+const { cns, cnsDV } = require('@box4dev/gerador-br');
 
 
 describe('Brazilian National Health Card (CNS) Generator', () => {

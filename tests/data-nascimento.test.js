@@ -1,4 +1,4 @@
-const { dataNascimento } = require('gerador-br');
+const { dataNascimento } = require('@box4dev/gerador-br');
 
 function getYearFromDate(dateString) {
   const [day, month, year] = dateString.split('/');

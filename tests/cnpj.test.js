@@ -1,4 +1,4 @@
-const { cnpj, cnpjDV } = require('gerador-br');
+const { cnpj, cnpjDV } = require('@box4dev/gerador-br');
 
 describe('CNPJ Generator', () => {
   test('should generate a valid CNPJ with mask', () => {

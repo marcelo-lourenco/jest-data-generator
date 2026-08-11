@@ -1,4 +1,4 @@
-const { escolaridade } = require('gerador-br');
+const { escolaridade } = require('@box4dev/gerador-br');
 
 describe('Escolaridade Generator', () => {
   test('should generate a valid education level', () => {

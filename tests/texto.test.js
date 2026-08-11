@@ -1,4 +1,4 @@
-const { palavra, sentenca, paragrafo } = require('gerador-br');
+const { palavra, sentenca, paragrafo } = require('@box4dev/gerador-br');
 
 describe('Tests for text generation functions', () => {
   test('Should return a random word from the word list', () => {

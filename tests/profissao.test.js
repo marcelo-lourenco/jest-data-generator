@@ -1,4 +1,4 @@
-const { profissao } = require('gerador-br');
+const { profissao } = require('@box4dev/gerador-br');
 
 describe('Profissão Generator', () => {
   test('should generate a valid profession', () => {

@@ -1,6 +1,6 @@
-// Assumindo que 'identidadesGenero' também é exportado por 'gerador-br'
+// Assumindo que 'identidadesGenero' também é exportado por '@box4dev/gerador-br'
 // para manter a lógica original do teste.
-const { identidadeGenero, identidadesGenero } = require('gerador-br');
+const { identidadeGenero, identidadesGenero } = require('@box4dev/gerador-br');
 
 describe('identidadeGenero', () => {
   test('should generate a valid gender identity', () => {

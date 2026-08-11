@@ -1,4 +1,4 @@
-const { inscricaoEstadual } = require('gerador-br');
+const { inscricaoEstadual } = require('@box4dev/gerador-br');
 
 describe('Inscrição Estadual', () => {
   describe('Validação de formato', () => {

@@ -1,4 +1,4 @@
-const { banco, listaCodigosBancos} = require('gerador-br');
+const { banco, listaCodigosBancos} = require('@box4dev/gerador-br');
 
 const expectedBanks = {
   1: {

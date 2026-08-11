@@ -1,4 +1,4 @@
-const { nomeEmpresa } = require('gerador-br');
+const { nomeEmpresa } = require('@box4dev/gerador-br');
 
 describe('nomeEmpresa', () => {
   test('should generate a valid company name', () => {

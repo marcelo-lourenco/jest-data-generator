@@ -1,4 +1,4 @@
-const { rg, rgDV } = require('gerador-br');
+const { rg, rgDV } = require('@box4dev/gerador-br');
 
 describe('RG Generator', () => {
   test('should generate a valid RG with mask', () => {

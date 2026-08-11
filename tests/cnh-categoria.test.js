@@ -1,5 +1,5 @@
 
-const { cnhCategoria } = require('gerador-br');
+const { cnhCategoria } = require('@box4dev/gerador-br');
 
 describe('cnhCategoria', () => {
   test('should generate a valid driver\'s license category', () => {

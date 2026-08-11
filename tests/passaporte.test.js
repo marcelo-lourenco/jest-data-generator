@@ -1,4 +1,4 @@
-const { passaporte } = require('gerador-br');
+const { passaporte } = require('@box4dev/gerador-br');
 
 describe('Passport Generator', () => {
   test('should generate a valid passport number', () => {

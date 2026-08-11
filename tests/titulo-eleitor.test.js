@@ -1,4 +1,4 @@
-const { teDV, tituloEleitor } = require('gerador-br');
+const { teDV, tituloEleitor } = require('@box4dev/gerador-br');
 
 describe('Título de Eleitor Generator', () => {
   test('should generate a valid title of voter without mask and with random state', () => {

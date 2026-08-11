@@ -1,6 +1,6 @@
-# Jest Data Generator with Gerador-BR
+# Jest Data Generator with @box4dev/gerador-br
 
-Example of using [Jest](https://jestjs.io/) with the [Gerador-BR](https://box4.dev/gerador-br/?utm_source=github&utm_medium=jest_data_generator) data generator to test Brazilian mock data generation.
+Example of using [Jest](https://jestjs.io/) with the [@box4dev/gerador-br](https://www.npmjs.com/package/@box4dev/gerador-br) data generator to test Brazilian mock data generation.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ npm run test:coverage
 ## Main Dependencies
 
 * [jest](https://www.npmjs.com/package/jest): Delightful JavaScript Testing Framework.
-* [gerador-br](https://www.npmjs.com/package/gerador-br): Library to generate Brazilian mock data.
+* [@box4dev/gerador-br](https://www.npmjs.com/package/@box4dev/gerador-br): Library to generate Brazilian mock data.
 
 ## Test Structure
 
@@ -52,4 +52,4 @@ The tests are organized in the `tests/` directory with individual test files for
 ## Documentation
 
 * [Jest Documentation](https://jestjs.io/docs/getting-started)
-* [Gerador-BR Documentation](https://box4.dev/gerador-br/documentacao/?utm_source=github&utm_medium=jest_data_generator)
+* [@box4dev/gerador-br Documentation](https://box4.dev/pt-br/pacotes-npm/gerador-br/docs?utm_source=github&utm_medium=jest_data_generator)

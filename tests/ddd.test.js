@@ -1,4 +1,4 @@
-const { ddd } = require('gerador-br');
+const { ddd } = require('@box4dev/gerador-br');
 
 describe('DDD Generator', () => {
   test('should generate a random DDD for a given state', () => {

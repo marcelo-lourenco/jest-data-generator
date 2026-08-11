@@ -1,10 +1,10 @@
 {
   "name": "jest-data-generator",
-  "version": "1.0.0",
-  "description": "Example of using Jest with the Gerador-BR data generator",
+  "version": "1.0.1",
+  "description": "Example of using Jest with the @box4dev/gerador-br data generator",
   "main": "index.js",
   "devDependencies": {
-    "gerador-br": "latest",
+    "@box4dev/gerador-br": "^2.0.1",
     "jest": "^29.7.0"
   },
   "scripts": {
@@ -14,6 +14,7 @@
   },
   "keywords": [
     "jest",
+    "@box4dev/gerador-br",
     "gerador-br",
     "data generator",
     "test automation",

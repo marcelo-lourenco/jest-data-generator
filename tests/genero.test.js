@@ -1,4 +1,4 @@
-const { genero } = require('gerador-br');
+const { genero } = require('@box4dev/gerador-br');
 
 describe('Genero Generator', () => {
   test('should return "Feminino" for input "f"', () => {

@@ -1,4 +1,4 @@
-const { nome } = require('gerador-br');
+const { nome } = require('@box4dev/gerador-br');
 
 describe('Nome Generator', () => {
   test('should generate a random name', () => {

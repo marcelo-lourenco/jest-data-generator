@@ -1,4 +1,4 @@
-const { renavam, renavamDV } = require('gerador-br');
+const { renavam, renavamDV } = require('@box4dev/gerador-br');
 
 describe('RENAVAM Generator', () => {
   test('should generate a valid RENAVAM number', () => {

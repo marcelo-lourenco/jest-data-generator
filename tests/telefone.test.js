@@ -1,4 +1,4 @@
-const { telefone } = require('gerador-br');
+const { telefone } = require('@box4dev/gerador-br');
 
 describe('telefone', () => {
   test('Generates a random phone number without mask', () => {

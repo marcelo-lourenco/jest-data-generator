@@ -1,6 +1,6 @@
-// Assumindo que 'identidadesPorOrientacao' e 'orientacaoSexual' também são exportados por 'gerador-br'
+// Assumindo que 'identidadesPorOrientacao' e 'orientacaoSexual' também são exportados por '@box4dev/gerador-br'
 // para manter a lógica original do teste.
-const { identidadePorOrientacao, identidadesPorOrientacao, orientacaoSexual } = require('gerador-br');
+const { identidadePorOrientacao, identidadesPorOrientacao, orientacaoSexual } = require('@box4dev/gerador-br');
 
 describe('identidadePorOrientacao', () => {
   test('should generate a valid gender identity based on the selected sexual orientation', () => {

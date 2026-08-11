@@ -1,4 +1,4 @@
-const { contaBancaria } = require('gerador-br');
+const { contaBancaria } = require('@box4dev/gerador-br');
 
 describe('Conta Bancária Generator', () => {
   test('should generate a valid Banco do Brasil account', () => {

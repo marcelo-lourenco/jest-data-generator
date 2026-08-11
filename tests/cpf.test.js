@@ -1,4 +1,4 @@
-const { cpf } = require('gerador-br');
+const { cpf } = require('@box4dev/gerador-br');
 
 describe('CPF Generator', () => {
   test('should generate a valid CPF with mask', () => {

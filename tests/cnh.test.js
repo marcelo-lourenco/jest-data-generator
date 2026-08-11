@@ -1,4 +1,4 @@
-const { cnh } = require('gerador-br');
+const { cnh } = require('@box4dev/gerador-br');
 
 describe('CNH Generator', () => {
   test('should generate a valid CNH', () => {

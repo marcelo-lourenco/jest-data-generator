@@ -1,4 +1,4 @@
-const { cartaoCredito } = require('gerador-br');
+const { cartaoCredito } = require('@box4dev/gerador-br');
 
 describe('Cartão de Crédito Generator', () => {
   test('should generate a valid credit card number without mask', () => {

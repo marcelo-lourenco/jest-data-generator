@@ -1,4 +1,4 @@
-const { pis } = require('gerador-br');
+const { pis } = require('@box4dev/gerador-br');
 
 describe('PIS Generator', () => {
   test('should generate a valid PIS without mask', () => {

@@ -1,4 +1,4 @@
-const { email, apelido } = require('gerador-br'); // Assumindo que 'apelido' também é exportado se necessário, embora não seja usado diretamente nos testes.
+const { email, apelido } = require('@box4dev/gerador-br'); // Assumindo que 'apelido' também é exportado se necessário, embora não seja usado diretamente nos testes.
 
 describe('Email Generator', () => {
   test('should generate a valid email address without full name', () => {

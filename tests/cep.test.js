@@ -1,4 +1,4 @@
-const { cep } = require('gerador-br');
+const { cep } = require('@box4dev/gerador-br');
 
 describe('CEP Generator', () => {
   test('should generate a valid CEP with mask', () => {

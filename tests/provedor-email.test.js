@@ -1,6 +1,6 @@
-// Assumindo que 'provedoresEmail' também é exportado por 'gerador-br'
+// Assumindo que 'provedoresEmail' também é exportado por '@box4dev/gerador-br'
 // para manter a lógica original do teste.
-const { provedorEmail, provedoresEmail } = require('gerador-br');
+const { provedorEmail, provedoresEmail } = require('@box4dev/gerador-br');
 
 describe('provedorEmailRand', () => {
   test('should generate a valid email provider', () => {

@@ -1,4 +1,4 @@
-const { codigoOperadora } = require('gerador-br');
+const { codigoOperadora } = require('@box4dev/gerador-br');
 
 describe('Operadora Generator', () => {
   test('should generate a random operator code', () => {

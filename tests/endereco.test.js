@@ -1,4 +1,4 @@
-const { endereco } = require('gerador-br');
+const { endereco } = require('@box4dev/gerador-br');
 
 describe('Endereço Generator', () => {
   test('should generate a valid address with mask', () => {

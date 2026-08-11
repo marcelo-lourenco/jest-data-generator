@@ -1,4 +1,4 @@
-const { placaAntiga, placaMercosul } = require('gerador-br');
+const { placaAntiga, placaMercosul } = require('@box4dev/gerador-br');
 
 describe('Placa Generator', () => {
   describe('Placa Antiga', () => {

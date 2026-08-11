@@ -1,4 +1,4 @@
-const { certidao } = require('gerador-br');
+const { certidao } = require('@box4dev/gerador-br');
 
 describe('certidao.js', () => {
   test('Geração de número de certidão de nascimento com máscara', () => {

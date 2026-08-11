@@ -1,6 +1,6 @@
-// Assumindo que 'coresPele' também é exportado por 'gerador-br'
+// Assumindo que 'coresPele' também é exportado por '@box4dev/gerador-br'
 // para manter a lógica original do teste.
-const { corPele, coresPele } = require('gerador-br');
+const { corPele, coresPele } = require('@box4dev/gerador-br');
 
 describe('corPele', () => {
   test('should generate a valid skin color', () => {
